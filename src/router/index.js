@@ -8,7 +8,7 @@ const router = createRouter({
       path: "/whatWedo",
       name: "whatWedo",
 
-      component: () => import("@/views/whatWedo.vue"),
+      component: () => import("@/views/WhatWedo.vue"),
     },
     {
       path: "/digital-divide",
